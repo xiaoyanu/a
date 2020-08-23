@@ -1,0 +1,303 @@
+Command: D:\Tools\Java\jdk1.8.0_261\jre\bin\java.exe -Dminecraft.client.jar=.minecraft\versions\Minecraft神秘岛\Minecraft神秘岛.jar -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx3968m -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=E:\mc1.7.10\.minecraft\versions\Minecraft神秘岛\natives -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.3.172 -cp E:\mc1.7.10\.minecraft\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forge-1.7.10-10.13.4.1614-1.7.10.jar;E:\mc1.7.10\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;E:\mc1.7.10\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;E:\mc1.7.10\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;E:\mc1.7.10\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;E:\mc1.7.10\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;E:\mc1.7.10\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;E:\mc1.7.10\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;E:\mc1.7.10\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\mc1.7.10\.minecraft\libraries\com\mojang\netty\1.6\netty-1.6.jar;E:\mc1.7.10\.minecraft\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\mc1.7.10\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\mc1.7.10\.minecraft\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;E:\mc1.7.10\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;E:\mc1.7.10\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;E:\mc1.7.10\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;E:\mc1.7.10\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;E:\mc1.7.10\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;E:\mc1.7.10\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;E:\mc1.7.10\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;E:\mc1.7.10\.minecraft\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;E:\mc1.7.10\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\mc1.7.10\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\mc1.7.10\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;E:\mc1.7.10\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;E:\mc1.7.10\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\mc1.7.10\.minecraft\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;E:\mc1.7.10\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;E:\mc1.7.10\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;E:\mc1.7.10\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;E:\mc1.7.10\.minecraft\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;E:\mc1.7.10\.minecraft\libraries\optifine\OptiFine\1.7.10_HD_U_E7\OptiFine-1.7.10_HD_U_E7-installer.jar;E:\mc1.7.10\.minecraft\versions\Minecraft神秘岛\Minecraft神秘岛.jar net.minecraft.launchwrapper.Launch --username XiaoYanU --version "HMCL 3.3.172" --gameDir E:\mc1.7.10\.minecraft --assetsDir E:\mc1.7.10\.minecraft\assets --assetIndex 1.7.10 --uuid fe4ceb513f3236288de71dc61c8b6744 --accessToken 8de0b357485a4d58adae0d8af56ed291 --userProperties {} --userType mojang --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass optifine.OptiFineForgeTweaker --width 854 --height 480
+[22:47:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:47:09] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[22:47:09] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_261, running on Windows 10:amd64:10.0, installed at D:\Tools\Java\jdk1.8.0_261\jre
+[22:47:09] [main/WARN] [FML]: The coremod lain.mods.inputfix.InputFix does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:47:09] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[22:47:09] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[22:47:09] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[22:47:09] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[22:47:09] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: E:\mc1.7.10\.minecraft\libraries\optifine\OptiFine\1.7.10_HD_U_E7\OptiFine-1.7.10_HD_U_E7-installer.jar
+[22:47:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:47:09] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:47:11] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:47:11] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[22:47:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:47:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:47:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:47:12] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:47:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:47:12] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[22:47:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:47:15] [main/INFO]: Setting user: <player>
+[22:47:17] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: ModLoader
+[22:47:17] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: LightCache
+[22:47:17] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: BlockCoord
+[22:47:18] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[22:47:18] [Client thread/INFO] [Config]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[22:47:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] 
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.7.10_HD_U_E7
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] Build: 20180404-111312
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_261, Oracle Corporation
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.1
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] OpenGL: GeForce GTX 960M/PCIe/SSE2, version 4.6.0 NVIDIA 399.24, NVIDIA Corporation
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[22:47:20] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 16384x16384
+[22:47:20] [Thread-6/INFO] [Config]: [OptiFine] Checking for new version
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] ShadersMod version: 2.4.12
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 399.24
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Renderer: GeForce GTX 960M/PCIe/SSE2
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Load ShadersMod configuration.
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] Save ShadersMod configuration.
+[22:47:20] [Client thread/INFO] [shadersmod.common.SMCLog]: [Shaders] No shaderpack loaded.
+[22:47:20] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.7.10_HD_U_E7, enabling compatibility features
+[22:47:20] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 20-8-23 下午10:47
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 136956720 bytes (130 MB) / 268435456 bytes (256 MB) up to 4160749568 bytes (3968 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx3968m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 399.24' Renderer: 'GeForce GTX 960M/PCIe/SSE2'
+[22:47:20] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[22:47:20] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[22:47:21] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[22:47:21] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[22:47:21] [Thread-6/INFO] [Config]: [OptiFine] Version found: E7
+[22:47:21] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[22:47:21] [Client thread/INFO] [FML]: Searching E:\mc1.7.10\.minecraft\mods for mods
+[22:47:30] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[22:47:30] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, InputFix, CustomMainMenu] at CLIENT
+[22:47:30] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, InputFix, CustomMainMenu] at SERVER
+[22:47:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Custom Main Menu
+[22:47:30] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:47:30] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[22:47:30] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:47:30] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:47:30] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:47:30] [Client thread/ERROR] [CustomMainMenu]: Error while loading config file. Will have to crash here :(.
+[22:47:30] [Client thread/INFO] [FML]: Applying holder lookups
+[22:47:30] [Client thread/INFO] [FML]: Holder lookups applied
+[22:47:30] [Client thread/INFO] [FML]: Injecting itemstacks
+[22:47:30] [Client thread/INFO] [FML]: Itemstack injection complete
+[22:47:30] [Client thread/ERROR] [FML]: Fatal errors were detected during the transition from PREINITIALIZATION to INITIALIZATION. Loading cannot continue
+[22:47:30] [Client thread/ERROR] [FML]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCH	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCH	InputFix{1.7.x-v2} [InputFix] (minecraft.jar) 
+	UCE	CustomMainMenu{1.9.2} [Custom Main Menu] (CustomMainMenu-MC1.7.10-1.9.2.jar) 
+[22:47:30] [Client thread/ERROR] [FML]: The following problems were captured during this phase
+[22:47:30] [Client thread/ERROR] [FML]: Caught exception from CustomMainMenu
+java.lang.RuntimeException: java.lang.NullPointerException
+	at lumien.custommainmenu.CustomMainMenu.preInit(CustomMainMenu.java:72) ~[CustomMainMenu.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532) ~[forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[forge-1.7.10-10.13.4.1614-1.7.10.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:243) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at lumien.custommainmenu.configuration.GuiConfig.loadTexts(GuiConfig.java:283) ~[GuiConfig.class:?]
+	at lumien.custommainmenu.configuration.GuiConfig.load(GuiConfig.java:104) ~[GuiConfig.class:?]
+	at lumien.custommainmenu.configuration.ConfigurationLoader.load(ConfigurationLoader.java:95) ~[ConfigurationLoader.class:?]
+	at lumien.custommainmenu.CustomMainMenu.preInit(CustomMainMenu.java:67) ~[CustomMainMenu.class:?]
+	... 37 more
+[22:47:31] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:func_71377_b:349]: ---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 20-8-23 下午10:47
+Description: Initializing game
+
+java.lang.RuntimeException: java.lang.NullPointerException
+	at lumien.custommainmenu.CustomMainMenu.preInit(CustomMainMenu.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:243)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.NullPointerException
+	at lumien.custommainmenu.configuration.GuiConfig.loadTexts(GuiConfig.java:283)
+	at lumien.custommainmenu.configuration.GuiConfig.load(GuiConfig.java:104)
+	at lumien.custommainmenu.configuration.ConfigurationLoader.load(ConfigurationLoader.java:95)
+	at lumien.custommainmenu.CustomMainMenu.preInit(CustomMainMenu.java:67)
+	... 37 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at lumien.custommainmenu.CustomMainMenu.preInit(CustomMainMenu.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:243)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 204830192 bytes (195 MB) / 436207616 bytes (416 MB) up to 4160749568 bytes (3968 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx3968m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 Optifine OptiFine_1.7.10_HD_U_E7 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCH	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCH	InputFix{1.7.x-v2} [InputFix] (minecraft.jar) 
+	UCE	CustomMainMenu{1.9.2} [Custom Main Menu] (CustomMainMenu-MC1.7.10-1.9.2.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 399.24' Renderer: 'GeForce GTX 960M/PCIe/SSE2'
+	Launched Version: HMCL 3.3.172
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 960M/PCIe/SSE2 GL version 4.6.0 NVIDIA 399.24, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
+	OptiFine Version: OptiFine_1.7.10_HD_U_E7
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 399.24
+	OpenGlRenderer: GeForce GTX 960M/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8
+[22:47:31] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:func_71377_b:359]: #@!@# Game crashed! Crash report saved to: #@!@# E:\mc1.7.10\.minecraft\crash-reports\crash-2020-08-23_22.47.30-client.txt
